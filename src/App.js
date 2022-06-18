@@ -1,15 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import HomeComponents from './homeComponents/homeComponents'
+import Card from './homeComponents/card';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      <HomeComponents></HomeComponents>
-      </header>
+      <Card/>
     </div>
   );
 }
