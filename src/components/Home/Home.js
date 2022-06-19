@@ -40,7 +40,7 @@ const LabelWhite = styled.label`
     color: white;
 `
 
-export class FiltrosHome extends React.Component {
+export class Home extends React.Component {
     state = {
         sort: "decrescente"
 

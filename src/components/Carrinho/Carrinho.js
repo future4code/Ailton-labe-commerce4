@@ -60,7 +60,7 @@ export default class Carrinho extends React.Component {
                       this.props.produtos.map(item => (
                         <Produto>
                             <Quantidade>{item.quantidade}</Quantidade>
-                            <NomeDoProduto>{item.titulo}</NomeDoProduto>
+                            <NomeDoProduto>{item.title}</NomeDoProduto>
                             <button onClick={()=>this.onRemoverProdutoDoCarrinho}>Remover</button>
                             {/* <button onClick={this.props(this, id)}>Deletar linha</button> */}
                         </Produto>

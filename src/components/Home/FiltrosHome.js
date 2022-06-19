@@ -10,7 +10,7 @@ const AddAoCarrinho = styled.button`
     align-self: center;
     margin-top: 8px;
     margin-bottom: 16px;
-    background-color: gray;
+    background-color: transparent;
     color: white;
     
 `
@@ -19,14 +19,17 @@ const Title = styled.div`
     color: black;
 
 `
-
+const custo = styled.div`
+    text-align: center;
+    
+`
 const ImgContainer = styled.img`
     width: 100%;
 `
 const ContainerDiv = styled.div`
 `
 
-export class CardsHome extends React.Component {
+export class FiltrosHome extends React.Component {
 
     render(){
         const produto = this.props.produto

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import styled from 'styled-components';
-import {Home} from './components/Home/card';
+import {Home} from './components/Home/Home';
 import Filtro from './components/Filtro/Filtro';
 import Carrinho from './components/Carrinho/Carrinho'
 import imagem1 from './imagem/1.png';
@@ -25,43 +25,43 @@ const AppContainer = styled.div`
   const produtos = [
   {
     id: 1,
-    titulo: 'Camiseta Feminina',
+    title: 'Croped',
     custo:  80,
-    image: imagem3,
+    image: imagem1,
   },
   {
     id: 2,
-    titulo: 'Camiseta Masculina',
-    custo: 80,
-    image: imagem5
-  },
-  {
-    id: 3,
-    titulo: 'Camiseta Feminina',
-    custo: 80,
-    image: imagem4
-  },
-  {
-    id: 4,
-    titulo: 'Blusa Feminina',
-    custo: 400,
-    image: imagem1
-  },
-  {
-    id: 5,
-    titulo: 'Camiseta Masculina',
-    custo: 300,
-    image: imagem6
-  },
-  {
-    id: 6,
-    titulo: 'Blusa Feminina',
-    custo: 350,
+    title: 'Croped',
+    custo: 200,
     image: imagem2
   },
   {
+    id: 3,
+    title: 'Camiseta Feminina',
+    custo: 59,
+    image: imagem3
+  },
+  {
+    id: 4,
+    title: 'Camiseta Feminina',
+    custo: 400,
+    image: imagem2
+  },
+  {
+    id: 5,
+    title: 'Camiseta Masculina',
+    custo: 300,
+    image: imagem2
+  },
+  {
+    id: 6,
+    title: 'camiseta',
+    custo: 350,
+    image: imagem1
+  },
+  {
     id: 7,
-    titulo: 'Blusa Masculina',
+    title: 'Blusa Masculina',
     custo: 450,
     image: imagem7
   },
