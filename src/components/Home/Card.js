@@ -8,7 +8,7 @@ const HomeContainer = styled.div`
     align-items: center;
     height: 60px;
     margin-bottom: -80px;
-    background-color: gray;
+    background-color: transparent;
     margin-right: 20px;
     margin-left: 20px;
 `
@@ -64,7 +64,7 @@ export class Home extends React.Component {
         return( 
             <div>
                 <HomeContainer>
-                    <produtoQuantity>Quantidade de produtos: {filteredAndOrderedList.length}</produtoQuantity>
+                    <ProdutoQuantidade>Quantidade de produtos: {filteredAndOrderedList.length}</ProdutoQuantidade>
                     <InputContainer>    
                         <LabelWhite>
                             Ordenação:  

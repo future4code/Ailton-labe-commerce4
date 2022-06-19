@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import styled from 'styled-components';
-import {Home} from './components/Home/Home';
+import {Home} from './components/Home/Card';
 import Filtro from './components/Filtro/Filtro';
 import Carrinho from './components/Carrinho/Carrinho'
 import imagem1 from './imagem/1.png';
@@ -25,50 +25,50 @@ const AppContainer = styled.div`
   const produtos = [
   {
     id: 1,
-    title: 'Croped',
-    custo:  80,
-    image: imagem1,
+    title: 'Camiseta Masculina',
+    custo:  59,
+    image: imagem5,
   },
   {
     id: 2,
-    title: 'Croped',
-    custo: 200,
-    image: imagem2
+    title: 'Camiseta Feminina',
+    custo: 49,
+    image: imagem3
   },
   {
     id: 3,
     title: 'Camiseta Feminina',
-    custo: 59,
-    image: imagem3
+    custo: 49,
+    image: imagem4
   },
   {
     id: 4,
-    title: 'Camiseta Feminina',
-    custo: 400,
+    title: 'Blusa Feminina',
+    custo: 249,
     image: imagem2
   },
   {
     id: 5,
     title: 'Camiseta Masculina',
-    custo: 300,
-    image: imagem2
+    custo: 59,
+    image: imagem6
   },
   {
     id: 6,
-    title: 'camiseta',
-    custo: 350,
+    title: 'Blusa Feminina',
+    custo: 249,
     image: imagem1
   },
   {
     id: 7,
     title: 'Blusa Masculina',
-    custo: 450,
+    custo: 299,
     image: imagem7
   },
   {
     id: 8,
     title: 'Blusa Masculina',
-    custo: 500,
+    custo: 299,
     image: imagem8
   }
 ]
